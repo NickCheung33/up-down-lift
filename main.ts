@@ -11,6 +11,7 @@ MakerCloud_KOI.registerTopicMessageHandler("BVKZV6T5", function (receivedMessage
 })
 MakerCloud.configRxTxPwbrick(MakerCloud.SerialPorts.PORT2)
 MakerCloud.setupWifi("", "")
+basic.pause(1000)
 MakerCloud_KOI.connectMakerCloudMQTT()
+basic.pause(1000)
 MakerCloud_KOI.subscribeTopic("BVKZV6T5")
-basic.showIcon(IconNames.Heart)
