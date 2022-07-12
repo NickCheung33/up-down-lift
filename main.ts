@@ -9,6 +9,6 @@ MakerCloud_KOI.registerTopicMessageHandler("BVKZV6T5", function (receivedMessage
         }
     }
 })
-MakerCloud.setupWifi("waiwai", "51352343")
+MakerCloud.setupWifi("", "")
 MakerCloud_KOI.connectMakerCloudMQTT()
 MakerCloud_KOI.subscribeTopic("BVKZV6T5")
